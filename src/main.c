@@ -57,7 +57,7 @@ int main(void)
             input = getchar();
         } while (input == '\n');
 
-        switch (input) // movment.
+        switch (input) // movement.
         {
         case 'W':
         case 'w':
