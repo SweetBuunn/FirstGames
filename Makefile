@@ -1,7 +1,7 @@
 CC := gcc
-CFLAGS := -g -MMD -MP
+CFLAGS := -g -MMD -MP -Wall -Wextra -Iinclude -Isrc -IInclude
 
-INCLUDES := -Iinclude -Isrc
+INCLUDES := -Iinclude -Isrc 
 LDFLAGS := -lncurses 
 
 BUILD_DIR := build
